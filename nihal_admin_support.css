@@ -1,0 +1,179 @@
+/*cascading style sheet for the admin pag*/
+
+#body
+{
+   background-image: url("8.jpg");
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+a
+{
+	 border-radius: 4px;
+   text-decoration:none;
+   color: red;
+   border: solid 5px white;
+   background-color: floralwhite;
+}
+
+input[type=text]
+{
+   /*height:20px;*/
+   /*width:200px;*/
+   border-radius:4px; 
+   box-shadow: 2px 2px 0 #888888;
+   font-family: Sansation,Arial;
+}
+
+input[type=password]
+{
+
+   /*height:20px;*/
+   /*width:200px;*/
+   border-radius:4px; 
+   box-shadow: 2px 2px 0 #888888;
+   font-family: Sansation,Arial;
+
+}
+
+input[type=button]
+{
+   /*width: 80px;*/
+   border-radius:4px; 
+}
+
+input[type=submit]
+{
+   /*width: 80px;*/
+   border-radius:4px; 
+}
+
+select
+{  
+    width:80px;
+   border-radius:4px;
+}
+
+iframe
+{  
+   border-radius: 8px;
+	 height:400px;
+	 width:1180px;
+}
+
+
+
+
+.update
+{
+    display: none;
+}
+
+.errorlabels
+{
+
+  color: red;
+}
+
+
+.transparent
+{
+
+ 
+   background-color:#3A3838;
+    border:1px solid #3A3838;
+    border-radius:8px;
+    opacity:0.6;
+    /*filter:alpha(opacity=60);
+	*/
+}
+
+#container
+{
+  color: #ffffff;
+}
+
+#quote
+{ color: red;
+  position: absolute;
+top: 80px;
+left: 700px;
+}
+
+#firstline
+{
+  height: 10px;
+}
+
+
+#welcome
+{
+	height: 15px;
+	color: #ffffff;
+	margin-top: 2px;
+}
+
+#top1
+{
+    height:160px;
+	/*width:500px;*/
+    color: #ffffff;
+	  margin: auto;
+    visibility: none;
+    z-index: 0;
+}
+#top2
+{
+    height:1000px;
+	/*width:500px;*/
+    color: #ffffff;
+	  margin: auto;
+    visibility: none;
+    z-index:0;
+}
+
+#top3
+{
+    height:230px;
+	/*width:500px;*/
+    color: #ffffff;
+	  margin: auto;
+    visibility: none;
+    z-index:0;
+}
+
+#logo
+{   
+    
+	margin-left: 5px;
+    height: 80px;
+
+}
+
+#foriframe
+{   
+    margin-top: 10px; 
+	height:450px;
+}
+
+#h2
+{
+  margin-top: 0px;
+  height:0px;
+}
+
+
+#footer
+{
+    
+	font-family:verdana;
+	font-size:10px;
+	color:#ffffff;
+}
+
+#hr
+{
+	margin-top: 0px;
+}
+
+
